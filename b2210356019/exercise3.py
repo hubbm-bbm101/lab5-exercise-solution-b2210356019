@@ -12,7 +12,7 @@ while number_of_guesses < 10 and guess != number:
     print("Remaining guesses: " + str(10 - number_of_guesses))
     if guess == number:
         print("You win!!")
-    elif number_of_guesses == 10 and guess != number:
+    elif number_of_guesses == 10:
         print("You lose!!")
     elif guess < number:
         print("Increase your number!")
