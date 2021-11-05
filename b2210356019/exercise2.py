@@ -1,7 +1,6 @@
 def mail_check(mail):
-    if "@" in mail:
-        if "." in mail:
-            return True
+    if "@" "," in mail:
+        return True
     else:
         return False
 
